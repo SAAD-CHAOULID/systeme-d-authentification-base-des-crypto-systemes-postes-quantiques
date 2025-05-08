@@ -1,0 +1,719 @@
+2025-04-10 00:55:54 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.103:5000
+2025-04-10 00:55:54 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 00:55:54 - INFO -  * Restarting with stat
+2025-04-10 00:55:55 - WARNING -  * Debugger is active!
+2025-04-10 00:55:55 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 00:56:15 - INFO - 127.0.0.1 - - [10/Apr/2025 00:56:15] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-04-10 00:56:15 - INFO - 127.0.0.1 - - [10/Apr/2025 00:56:15] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-10 00:56:15 - INFO - 127.0.0.1 - - [10/Apr/2025 00:56:15] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-10 00:56:16 - INFO - 127.0.0.1 - - [10/Apr/2025 00:56:16] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=l6zZ6QKcHeHBaFyuzVVU HTTP/1.1" 200 -
+2025-04-10 00:56:16 - INFO - 127.0.0.1 - - [10/Apr/2025 00:56:16] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-10 01:23:43 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 01:23:43 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 01:23:43 - INFO -  * Restarting with stat
+2025-04-10 01:23:44 - WARNING -  * Debugger is active!
+2025-04-10 01:23:44 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 01:26:40 - INFO - 127.0.0.1 - - [10/Apr/2025 01:26:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-10 01:26:40 - INFO - 127.0.0.1 - - [10/Apr/2025 01:26:40] "GET /login HTTP/1.1" 200 -
+2025-04-10 01:26:41 - INFO - 127.0.0.1 - - [10/Apr/2025 01:26:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 01:26:59 - INFO - 127.0.0.1 - - [10/Apr/2025 01:26:59] "GET /register HTTP/1.1" 200 -
+2025-04-10 01:27:28 - INFO - 127.0.0.1 - - [10/Apr/2025 01:27:28] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 01:27:29 - INFO - 127.0.0.1 - - [10/Apr/2025 01:27:29] "GET /register HTTP/1.1" 200 -
+2025-04-10 01:27:52 - INFO - 127.0.0.1 - - [10/Apr/2025 01:27:52] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-04-10 01:27:52 - INFO - 127.0.0.1 - - [10/Apr/2025 01:27:52] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-10 01:27:52 - INFO - 127.0.0.1 - - [10/Apr/2025 01:27:52] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-10 01:27:53 - INFO - 127.0.0.1 - - [10/Apr/2025 01:27:53] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=nSlWGtjrPqBeTsHYrOFQ HTTP/1.1" 200 -
+2025-04-10 01:27:53 - INFO - 127.0.0.1 - - [10/Apr/2025 01:27:53] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-10 01:37:38 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\config.py', reloading
+2025-04-10 01:37:38 - INFO -  * Restarting with stat
+2025-04-10 01:37:39 - WARNING -  * Debugger is active!
+2025-04-10 01:37:39 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 01:37:47 - ERROR - Erreur inscription: (1054, "Unknown column 'lattice' in 'field list'")
+2025-04-10 01:37:47 - INFO - 127.0.0.1 - - [10/Apr/2025 01:37:47] "POST /register HTTP/1.1" 200 -
+2025-04-10 01:38:09 - INFO - 127.0.0.1 - - [10/Apr/2025 01:38:09] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 01:38:09 - INFO - 127.0.0.1 - - [10/Apr/2025 01:38:09] "GET /register HTTP/1.1" 200 -
+2025-04-10 01:38:33 - ERROR - Erreur inscription: (1054, "Unknown column 'lattice' in 'field list'")
+2025-04-10 01:38:33 - INFO - 127.0.0.1 - - [10/Apr/2025 01:38:33] "POST /register HTTP/1.1" 200 -
+2025-04-10 01:38:55 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 01:38:55 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 01:38:55 - INFO -  * Restarting with stat
+2025-04-10 01:38:56 - WARNING -  * Debugger is active!
+2025-04-10 01:38:56 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 01:39:33 - INFO - 127.0.0.1 - - [10/Apr/2025 01:39:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-10 01:39:33 - INFO - 127.0.0.1 - - [10/Apr/2025 01:39:33] "GET /login HTTP/1.1" 200 -
+2025-04-10 01:39:33 - INFO - 127.0.0.1 - - [10/Apr/2025 01:39:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 01:39:38 - INFO - 127.0.0.1 - - [10/Apr/2025 01:39:38] "GET /register HTTP/1.1" 200 -
+2025-04-10 01:40:02 - ERROR - Erreur inscription: (1054, "Unknown column 'lattice' in 'field list'")
+2025-04-10 01:40:02 - INFO - 127.0.0.1 - - [10/Apr/2025 01:40:02] "POST /register HTTP/1.1" 200 -
+2025-04-10 01:47:17 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\database.py', reloading
+2025-04-10 01:47:17 - INFO -  * Restarting with stat
+2025-04-10 01:47:18 - WARNING -  * Debugger is active!
+2025-04-10 01:47:18 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 01:48:53 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 01:48:53 - INFO -  * Restarting with stat
+2025-04-10 02:12:38 - INFO - Table users créée avec succès
+2025-04-10 02:12:38 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 02:12:38 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 02:12:38 - INFO -  * Restarting with stat
+2025-04-10 02:12:39 - INFO - Table users créée avec succès
+2025-04-10 02:12:39 - WARNING -  * Debugger is active!
+2025-04-10 02:12:39 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 02:12:50 - INFO - 127.0.0.1 - - [10/Apr/2025 02:12:50] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 02:12:50 - INFO - 127.0.0.1 - - [10/Apr/2025 02:12:50] "GET /register HTTP/1.1" 200 -
+2025-04-10 02:13:00 - INFO - 127.0.0.1 - - [10/Apr/2025 02:13:00] "GET /register HTTP/1.1" 200 -
+2025-04-10 02:13:34 - INFO - 127.0.0.1 - - [10/Apr/2025 02:13:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 02:13:34 - INFO - 127.0.0.1 - - [10/Apr/2025 02:13:34] "GET /register HTTP/1.1" 200 -
+2025-04-10 02:14:50 - INFO - 127.0.0.1 - - [10/Apr/2025 02:14:50] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 02:14:50 - INFO - 127.0.0.1 - - [10/Apr/2025 02:14:50] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:17:45 - INFO - 127.0.0.1 - - [10/Apr/2025 02:17:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:17:45 - INFO - 127.0.0.1 - - [10/Apr/2025 02:17:45] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:20:08 - INFO - 127.0.0.1 - - [10/Apr/2025 02:20:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:20:08 - INFO - 127.0.0.1 - - [10/Apr/2025 02:20:08] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:20:46 - INFO - 127.0.0.1 - - [10/Apr/2025 02:20:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:20:46 - INFO - 127.0.0.1 - - [10/Apr/2025 02:20:46] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:20:49 - INFO - 127.0.0.1 - - [10/Apr/2025 02:20:49] "GET /register HTTP/1.1" 200 -
+2025-04-10 02:25:16 - INFO - 127.0.0.1 - - [10/Apr/2025 02:25:16] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 02:25:16 - INFO - 127.0.0.1 - - [10/Apr/2025 02:25:16] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:25:35 - INFO - 127.0.0.1 - - [10/Apr/2025 02:25:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:25:35 - INFO - 127.0.0.1 - - [10/Apr/2025 02:25:35] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:27:05 - INFO - 127.0.0.1 - - [10/Apr/2025 02:27:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:27:05 - INFO - 127.0.0.1 - - [10/Apr/2025 02:27:05] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:27:06 - INFO - 127.0.0.1 - - [10/Apr/2025 02:27:06] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:27:17 - INFO - 127.0.0.1 - - [10/Apr/2025 02:27:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:27:17 - INFO - 127.0.0.1 - - [10/Apr/2025 02:27:17] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:38:21 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 02:38:21 - INFO -  * Restarting with stat
+2025-04-10 02:38:22 - INFO - Table users créée avec succès
+2025-04-10 02:38:22 - WARNING -  * Debugger is active!
+2025-04-10 02:38:22 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 02:38:28 - INFO - Table users créée avec succès
+2025-04-10 02:38:28 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 02:38:28 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 02:38:28 - INFO -  * Restarting with stat
+2025-04-10 02:38:29 - INFO - Table users créée avec succès
+2025-04-10 02:38:29 - WARNING -  * Debugger is active!
+2025-04-10 02:38:29 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 02:38:34 - INFO - 127.0.0.1 - - [10/Apr/2025 02:38:34] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:38:57 - WARNING - Échec connexion pour houda
+2025-04-10 02:38:57 - INFO - 127.0.0.1 - - [10/Apr/2025 02:38:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:38:57 - INFO - 127.0.0.1 - - [10/Apr/2025 02:38:57] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:39:04 - INFO - 127.0.0.1 - - [10/Apr/2025 02:39:04] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:39:08 - INFO - 127.0.0.1 - - [10/Apr/2025 02:39:08] "GET /register HTTP/1.1" 200 -
+2025-04-10 02:41:01 - INFO - 127.0.0.1 - - [10/Apr/2025 02:41:01] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 02:41:01 - INFO - 127.0.0.1 - - [10/Apr/2025 02:41:01] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:41:05 - INFO - 127.0.0.1 - - [10/Apr/2025 02:41:05] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:41:19 - WARNING - Échec connexion pour Shamshun
+2025-04-10 02:41:19 - INFO - 127.0.0.1 - - [10/Apr/2025 02:41:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:41:19 - INFO - 127.0.0.1 - - [10/Apr/2025 02:41:19] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:43:53 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 02:43:54 - INFO -  * Restarting with stat
+2025-04-10 02:43:55 - INFO - Table users créée avec succès
+2025-04-10 02:52:42 - INFO - Table users créée avec succès
+2025-04-10 02:52:42 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 02:52:42 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 02:52:42 - INFO -  * Restarting with stat
+2025-04-10 02:52:43 - INFO - Table users créée avec succès
+2025-04-10 02:52:43 - WARNING -  * Debugger is active!
+2025-04-10 02:52:43 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 02:52:49 - INFO - 127.0.0.1 - - [10/Apr/2025 02:52:49] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:52:51 - INFO - 127.0.0.1 - - [10/Apr/2025 02:52:51] "GET /register HTTP/1.1" 200 -
+2025-04-10 02:53:12 - INFO - 127.0.0.1 - - [10/Apr/2025 02:53:12] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 02:53:12 - INFO - 127.0.0.1 - - [10/Apr/2025 02:53:12] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:53:31 - INFO - 127.0.0.1 - - [10/Apr/2025 02:53:31] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:53:45 - WARNING - Échec connexion pour Shamshun
+2025-04-10 02:53:45 - INFO - 127.0.0.1 - - [10/Apr/2025 02:53:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:53:45 - INFO - 127.0.0.1 - - [10/Apr/2025 02:53:45] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:54:03 - WARNING - Échec connexion pour Shamshun
+2025-04-10 02:54:03 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:54:04 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:04] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:54:07 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:07] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:54:08 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:08] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:54:09 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:09] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:54:09 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:09] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:54:09 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:09] "GET /login HTTP/1.1" 200 -
+2025-04-10 02:54:47 - WARNING - Échec connexion pour Shamshun
+2025-04-10 02:54:47 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 02:54:47 - INFO - 127.0.0.1 - - [10/Apr/2025 02:54:47] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:07:48 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:07:49 - INFO -  * Restarting with stat
+2025-04-10 03:07:50 - INFO - Table users créée avec succès
+2025-04-10 03:07:50 - WARNING -  * Debugger is active!
+2025-04-10 03:07:50 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:07:55 - INFO - Table users créée avec succès
+2025-04-10 03:07:55 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 03:07:55 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 03:07:55 - INFO -  * Restarting with stat
+2025-04-10 03:07:56 - INFO - Table users créée avec succès
+2025-04-10 03:07:56 - WARNING -  * Debugger is active!
+2025-04-10 03:07:56 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:08:17 - INFO - 127.0.0.1 - - [10/Apr/2025 03:08:17] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:08:17 - INFO - 127.0.0.1 - - [10/Apr/2025 03:08:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 03:08:37 - WARNING - Échec de connexion pour Shamshun
+2025-04-10 03:08:37 - INFO - 127.0.0.1 - - [10/Apr/2025 03:08:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 03:08:37 - INFO - 127.0.0.1 - - [10/Apr/2025 03:08:37] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:09:00 - INFO - 127.0.0.1 - - [10/Apr/2025 03:09:00] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:09:11 - WARNING - Échec de connexion pour Shamshun
+2025-04-10 03:09:11 - INFO - 127.0.0.1 - - [10/Apr/2025 03:09:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 03:09:11 - INFO - 127.0.0.1 - - [10/Apr/2025 03:09:11] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:20:58 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:20:59 - INFO -  * Restarting with stat
+2025-04-10 03:21:00 - INFO - Table users créée avec succès
+2025-04-10 03:21:00 - WARNING -  * Debugger is active!
+2025-04-10 03:21:00 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:21:04 - INFO - Table users créée avec succès
+2025-04-10 03:21:05 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 03:21:05 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 03:21:05 - INFO -  * Restarting with stat
+2025-04-10 03:21:05 - INFO - Table users créée avec succès
+2025-04-10 03:21:05 - WARNING -  * Debugger is active!
+2025-04-10 03:21:05 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:21:32 - INFO - 127.0.0.1 - - [10/Apr/2025 03:21:32] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:21:35 - INFO - 127.0.0.1 - - [10/Apr/2025 03:21:35] "GET /register HTTP/1.1" 200 -
+2025-04-10 03:22:06 - INFO - 127.0.0.1 - - [10/Apr/2025 03:22:06] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 03:22:07 - INFO - 127.0.0.1 - - [10/Apr/2025 03:22:07] "GET /register HTTP/1.1" 200 -
+2025-04-10 03:22:29 - INFO - 127.0.0.1 - - [10/Apr/2025 03:22:29] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 03:22:29 - INFO - 127.0.0.1 - - [10/Apr/2025 03:22:29] "GET /register HTTP/1.1" 200 -
+2025-04-10 03:23:13 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:23:13 - INFO -  * Restarting with stat
+2025-04-10 03:23:15 - INFO - Table users créée avec succès
+2025-04-10 03:23:15 - WARNING -  * Debugger is active!
+2025-04-10 03:23:15 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:23:21 - INFO - Table users créée avec succès
+2025-04-10 03:23:21 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 03:23:21 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 03:23:21 - INFO -  * Restarting with stat
+2025-04-10 03:23:22 - INFO - Table users créée avec succès
+2025-04-10 03:23:22 - WARNING -  * Debugger is active!
+2025-04-10 03:23:22 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:23:29 - INFO - 127.0.0.1 - - [10/Apr/2025 03:23:29] "GET /register HTTP/1.1" 200 -
+2025-04-10 03:23:52 - INFO - 127.0.0.1 - - [10/Apr/2025 03:23:52] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 03:23:52 - INFO - 127.0.0.1 - - [10/Apr/2025 03:23:52] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:24:06 - WARNING - Échec de connexion pour Shamshun
+2025-04-10 03:24:06 - INFO - 127.0.0.1 - - [10/Apr/2025 03:24:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 03:24:06 - INFO - 127.0.0.1 - - [10/Apr/2025 03:24:06] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:26:20 - INFO - 127.0.0.1 - - [10/Apr/2025 03:26:20] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:26:57 - INFO - 127.0.0.1 - - [10/Apr/2025 03:26:57] "GET /register HTTP/1.1" 200 -
+2025-04-10 03:27:13 - INFO - 127.0.0.1 - - [10/Apr/2025 03:27:13] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 03:27:13 - INFO - 127.0.0.1 - - [10/Apr/2025 03:27:13] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:27:26 - WARNING - Échec de connexion pour Shamshun
+2025-04-10 03:27:26 - INFO - 127.0.0.1 - - [10/Apr/2025 03:27:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 03:27:26 - INFO - 127.0.0.1 - - [10/Apr/2025 03:27:26] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:28:20 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:28:20 - INFO -  * Restarting with stat
+2025-04-10 03:28:22 - INFO - Table users créée avec succès
+2025-04-10 03:28:22 - WARNING -  * Debugger is active!
+2025-04-10 03:28:22 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:29:07 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\password_utils.py', reloading
+2025-04-10 03:29:07 - INFO -  * Restarting with stat
+2025-04-10 03:29:08 - INFO - Table users créée avec succès
+2025-04-10 03:29:08 - WARNING -  * Debugger is active!
+2025-04-10 03:29:08 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:29:13 - INFO - Table users créée avec succès
+2025-04-10 03:29:14 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 03:29:14 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 03:29:14 - INFO -  * Restarting with stat
+2025-04-10 03:29:14 - INFO - Table users créée avec succès
+2025-04-10 03:29:14 - WARNING -  * Debugger is active!
+2025-04-10 03:29:14 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:29:22 - INFO - 127.0.0.1 - - [10/Apr/2025 03:29:22] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:29:29 - INFO - Tentative de connexion pour Shamshun
+2025-04-10 03:29:29 - INFO - Données stockées - lattice: Xt3agM9FKM..., salt: MLUFGYU5eT...
+2025-04-10 03:29:32 - INFO - Hash stocké déchiffré: $argon2id$...
+2025-04-10 03:29:33 - INFO - Nouveau hash généré: $argon2id$...
+2025-04-10 03:29:33 - WARNING - Les hashs ne correspondent pas!
+2025-04-10 03:29:33 - WARNING - Échec de connexion pour Shamshun
+2025-04-10 03:29:33 - INFO - 127.0.0.1 - - [10/Apr/2025 03:29:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 03:29:34 - INFO - 127.0.0.1 - - [10/Apr/2025 03:29:34] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:32:22 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:32:22 - INFO -  * Restarting with stat
+2025-04-10 03:32:23 - INFO - Table users créée avec succès
+2025-04-10 03:32:23 - WARNING -  * Debugger is active!
+2025-04-10 03:32:23 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:32:47 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\password_utils.py', reloading
+2025-04-10 03:32:47 - INFO -  * Restarting with stat
+2025-04-10 03:32:48 - INFO - Table users créée avec succès
+2025-04-10 03:32:48 - WARNING -  * Debugger is active!
+2025-04-10 03:32:48 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:37:14 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:37:14 - INFO -  * Restarting with stat
+2025-04-10 03:37:15 - INFO - Table users créée avec succès
+2025-04-10 03:37:15 - WARNING -  * Debugger is active!
+2025-04-10 03:37:15 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:37:21 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:37:22 - INFO -  * Restarting with stat
+2025-04-10 03:37:22 - INFO - Table users créée avec succès
+2025-04-10 03:37:22 - WARNING -  * Debugger is active!
+2025-04-10 03:37:22 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:38:32 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:38:33 - INFO -  * Restarting with stat
+2025-04-10 03:38:34 - INFO - Table users créée avec succès
+2025-04-10 03:38:34 - WARNING -  * Debugger is active!
+2025-04-10 03:38:34 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:41:11 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:41:11 - INFO -  * Restarting with stat
+2025-04-10 03:41:55 - INFO - Table users créée avec succès
+2025-04-10 03:41:55 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 03:41:55 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 03:41:55 - INFO -  * Restarting with stat
+2025-04-10 03:41:55 - INFO - Table users créée avec succès
+2025-04-10 03:41:56 - WARNING -  * Debugger is active!
+2025-04-10 03:41:56 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:41:59 - INFO - 127.0.0.1 - - [10/Apr/2025 03:41:59] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:42:17 - ERROR - Échec authentification pour Shamshun: Les hashs ne correspondent pas
+2025-04-10 03:42:17 - INFO - 127.0.0.1 - - [10/Apr/2025 03:42:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 03:42:17 - INFO - 127.0.0.1 - - [10/Apr/2025 03:42:17] "GET /login HTTP/1.1" 200 -
+2025-04-10 03:45:45 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 03:45:45 - INFO -  * Restarting with stat
+2025-04-10 03:45:47 - INFO - Table users créée avec succès
+2025-04-10 03:45:47 - WARNING -  * Debugger is active!
+2025-04-10 03:45:47 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:46:22 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\test_ntru.py', reloading
+2025-04-10 03:46:23 - INFO -  * Restarting with stat
+2025-04-10 03:46:24 - INFO - Table users créée avec succès
+2025-04-10 03:46:24 - WARNING -  * Debugger is active!
+2025-04-10 03:46:24 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 03:46:48 - INFO - Table users créée avec succès
+2025-04-10 04:13:50 - INFO - Table users créée avec succès
+2025-04-10 04:16:05 - INFO - Table users créée avec succès
+2025-04-10 04:16:06 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 04:16:06 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 04:16:06 - INFO -  * Restarting with stat
+2025-04-10 04:16:06 - INFO - Table users créée avec succès
+2025-04-10 04:16:06 - WARNING -  * Debugger is active!
+2025-04-10 04:16:06 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 04:16:08 - INFO - 127.0.0.1 - - [10/Apr/2025 04:16:08] "GET /login HTTP/1.1" 200 -
+2025-04-10 04:16:18 - INFO - 127.0.0.1 - - [10/Apr/2025 04:16:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 04:16:18 - INFO - 127.0.0.1 - - [10/Apr/2025 04:16:18] "GET / HTTP/1.1" 200 -
+2025-04-10 04:16:29 - INFO - 127.0.0.1 - - [10/Apr/2025 04:16:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-10 04:16:30 - INFO - 127.0.0.1 - - [10/Apr/2025 04:16:30] "GET /login HTTP/1.1" 200 -
+2025-04-10 04:17:06 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 04:17:06 - INFO -  * Restarting with stat
+2025-04-10 04:17:07 - INFO - Table users créée avec succès
+2025-04-10 04:17:07 - WARNING -  * Debugger is active!
+2025-04-10 04:17:07 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 04:17:09 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-10 04:17:09 - INFO -  * Restarting with stat
+2025-04-10 04:17:10 - INFO - Table users créée avec succès
+2025-04-10 04:17:10 - WARNING -  * Debugger is active!
+2025-04-10 04:17:10 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 23:41:29 - INFO - Table users créée avec succès
+2025-04-10 23:41:29 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 23:41:29 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 23:41:29 - INFO -  * Restarting with stat
+2025-04-10 23:41:30 - INFO - Table users créée avec succès
+2025-04-10 23:41:30 - WARNING -  * Debugger is active!
+2025-04-10 23:41:30 - INFO -  * Debugger PIN: 720-682-309
+2025-04-10 23:42:07 - INFO - 127.0.0.1 - - [10/Apr/2025 23:42:07] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-10 23:42:07 - INFO - 127.0.0.1 - - [10/Apr/2025 23:42:07] "GET /login HTTP/1.1" 200 -
+2025-04-10 23:42:07 - INFO - 127.0.0.1 - - [10/Apr/2025 23:42:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 23:42:29 - INFO - 127.0.0.1 - - [10/Apr/2025 23:42:29] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-10 23:42:30 - INFO - 127.0.0.1 - - [10/Apr/2025 23:42:30] "GET /login HTTP/1.1" 200 -
+2025-04-10 23:42:36 - INFO - 127.0.0.1 - - [10/Apr/2025 23:42:36] "GET /register HTTP/1.1" 200 -
+2025-04-10 23:50:51 - INFO - 127.0.0.1 - - [10/Apr/2025 23:50:51] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-10 23:50:51 - INFO - 127.0.0.1 - - [10/Apr/2025 23:50:51] "GET /login HTTP/1.1" 200 -
+2025-04-10 23:53:24 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-10 23:53:24 - INFO - 127.0.0.1 - - [10/Apr/2025 23:53:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 23:53:24 - INFO - 127.0.0.1 - - [10/Apr/2025 23:53:24] "GET /login HTTP/1.1" 200 -
+2025-04-10 23:53:42 - INFO - 127.0.0.1 - - [10/Apr/2025 23:53:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-10 23:53:42 - INFO - 127.0.0.1 - - [10/Apr/2025 23:53:42] "GET / HTTP/1.1" 200 -
+2025-04-10 23:54:02 - INFO - 127.0.0.1 - - [10/Apr/2025 23:54:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-10 23:54:02 - INFO - 127.0.0.1 - - [10/Apr/2025 23:54:02] "GET /login HTTP/1.1" 200 -
+2025-04-10 23:54:07 - INFO - 127.0.0.1 - - [10/Apr/2025 23:54:07] "GET /register HTTP/1.1" 200 -
+2025-04-11 17:14:26 - INFO - Table users créée avec succès
+2025-04-11 17:14:26 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 17:14:26 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 17:14:26 - INFO -  * Restarting with stat
+2025-04-11 17:14:27 - INFO - Table users créée avec succès
+2025-04-11 17:14:27 - WARNING -  * Debugger is active!
+2025-04-11 17:14:27 - INFO -  * Debugger PIN: 720-682-309
+2025-04-11 17:14:48 - INFO - 127.0.0.1 - - [11/Apr/2025 17:14:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-11 17:14:48 - INFO - 127.0.0.1 - - [11/Apr/2025 17:14:48] "GET /login HTTP/1.1" 200 -
+2025-04-11 17:14:48 - INFO - 127.0.0.1 - - [11/Apr/2025 17:14:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-11 17:14:50 - INFO - 127.0.0.1 - - [11/Apr/2025 17:14:50] "GET /register HTTP/1.1" 200 -
+2025-04-11 17:15:04 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:04] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-11 17:15:04 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:04] "GET /register HTTP/1.1" 200 -
+2025-04-11 17:15:24 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:24] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-11 17:15:25 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:25] "GET /login HTTP/1.1" 200 -
+2025-04-11 17:15:26 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-11 17:15:40 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-11 17:15:40 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:40] "GET / HTTP/1.1" 200 -
+2025-04-11 17:15:51 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-11 17:15:51 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:51] "GET /login HTTP/1.1" 200 -
+2025-04-11 17:15:56 - INFO - 127.0.0.1 - - [11/Apr/2025 17:15:56] "GET /register HTTP/1.1" 200 -
+2025-04-12 21:20:36 - ERROR - Erreur DB: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée)")
+2025-04-12 21:22:10 - INFO - Table users créée avec succès
+2025-04-12 21:22:10 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 21:22:10 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 21:22:10 - INFO -  * Restarting with stat
+2025-04-12 21:22:11 - INFO - Table users créée avec succès
+2025-04-12 21:22:11 - WARNING -  * Debugger is active!
+2025-04-12 21:22:11 - INFO -  * Debugger PIN: 720-682-309
+2025-04-12 21:22:29 - INFO - 127.0.0.1 - - [12/Apr/2025 21:22:29] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-12 21:22:29 - INFO - 127.0.0.1 - - [12/Apr/2025 21:22:29] "GET /login HTTP/1.1" 200 -
+2025-04-12 21:22:34 - INFO - 127.0.0.1 - - [12/Apr/2025 21:22:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-12 21:22:38 - INFO - 127.0.0.1 - - [12/Apr/2025 21:22:38] "GET /register HTTP/1.1" 200 -
+2025-04-12 21:23:50 - INFO - 127.0.0.1 - - [12/Apr/2025 21:23:50] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-12 21:23:50 - INFO - 127.0.0.1 - - [12/Apr/2025 21:23:50] "GET /register HTTP/1.1" 200 -
+2025-04-12 21:24:36 - INFO - 127.0.0.1 - - [12/Apr/2025 21:24:36] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-12 21:24:36 - INFO - 127.0.0.1 - - [12/Apr/2025 21:24:36] "GET /login HTTP/1.1" 200 -
+2025-04-12 21:24:52 - ERROR - Échec authentification pour test: The password does not match the supplied hash
+2025-04-12 21:24:52 - INFO - 127.0.0.1 - - [12/Apr/2025 21:24:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-12 21:24:52 - INFO - 127.0.0.1 - - [12/Apr/2025 21:24:52] "GET /login HTTP/1.1" 200 -
+2025-04-12 21:25:09 - INFO - 127.0.0.1 - - [12/Apr/2025 21:25:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-12 21:25:09 - INFO - 127.0.0.1 - - [12/Apr/2025 21:25:09] "GET / HTTP/1.1" 200 -
+2025-04-12 21:25:38 - INFO - 127.0.0.1 - - [12/Apr/2025 21:25:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-12 21:25:38 - INFO - 127.0.0.1 - - [12/Apr/2025 21:25:38] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:23:52 - INFO - Table users créée avec succès
+2025-04-13 21:23:52 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 21:23:52 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 21:23:52 - INFO -  * Restarting with stat
+2025-04-13 21:23:53 - INFO - Table users créée avec succès
+2025-04-13 21:23:53 - WARNING -  * Debugger is active!
+2025-04-13 21:23:53 - INFO -  * Debugger PIN: 743-911-634
+2025-04-13 21:24:13 - INFO - 127.0.0.1 - - [13/Apr/2025 21:24:13] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:24:15 - INFO - 127.0.0.1 - - [13/Apr/2025 21:24:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 21:24:34 - INFO - 127.0.0.1 - - [13/Apr/2025 21:24:34] "GET /register HTTP/1.1" 200 -
+2025-04-13 21:24:51 - INFO - 127.0.0.1 - - [13/Apr/2025 21:24:51] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:26:06 - INFO - 127.0.0.1 - - [13/Apr/2025 21:26:06] "GET /register HTTP/1.1" 200 -
+2025-04-13 21:27:46 - INFO - 127.0.0.1 - - [13/Apr/2025 21:27:46] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-13 21:27:46 - INFO - 127.0.0.1 - - [13/Apr/2025 21:27:46] "GET /register HTTP/1.1" 200 -
+2025-04-13 21:28:30 - INFO - 127.0.0.1 - - [13/Apr/2025 21:28:30] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-13 21:28:30 - INFO - 127.0.0.1 - - [13/Apr/2025 21:28:30] "GET /register HTTP/1.1" 200 -
+2025-04-13 21:29:21 - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:21] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-13 21:29:21 - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:21] "GET /register HTTP/1.1" 200 -
+2025-04-13 21:29:49 - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:49] "GET /register HTTP/1.1" 200 -
+2025-04-13 21:30:37 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:37] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-13 21:30:37 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:37] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:31:57 - INFO - 127.0.0.1 - - [13/Apr/2025 21:31:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:31:57 - INFO - 127.0.0.1 - - [13/Apr/2025 21:31:57] "GET / HTTP/1.1" 200 -
+2025-04-13 21:32:08 - INFO - 127.0.0.1 - - [13/Apr/2025 21:32:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-13 21:32:09 - INFO - 127.0.0.1 - - [13/Apr/2025 21:32:09] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:32:21 - ERROR - Échec authentification pour MONCIF: The password does not match the supplied hash
+2025-04-13 21:32:21 - INFO - 127.0.0.1 - - [13/Apr/2025 21:32:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:32:21 - INFO - 127.0.0.1 - - [13/Apr/2025 21:32:21] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:32:42 - ERROR - Échec authentification pour MONCIF: The password does not match the supplied hash
+2025-04-13 21:32:42 - INFO - 127.0.0.1 - - [13/Apr/2025 21:32:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:32:45 - ERROR - Échec authentification pour MONCIF: The password does not match the supplied hash
+2025-04-13 21:32:45 - INFO - 127.0.0.1 - - [13/Apr/2025 21:32:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:32:48 - ERROR - Échec authentification pour MONCIF: The password does not match the supplied hash
+2025-04-13 21:32:48 - INFO - 127.0.0.1 - - [13/Apr/2025 21:32:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:32:48 - INFO - 127.0.0.1 - - [13/Apr/2025 21:32:48] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:33:01 - ERROR - Échec authentification pour MONCIF: The password does not match the supplied hash
+2025-04-13 21:33:01 - INFO - 127.0.0.1 - - [13/Apr/2025 21:33:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:33:01 - INFO - 127.0.0.1 - - [13/Apr/2025 21:33:01] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:33:08 - INFO - 127.0.0.1 - - [13/Apr/2025 21:33:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:33:09 - INFO - 127.0.0.1 - - [13/Apr/2025 21:33:09] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:33:36 - INFO - 127.0.0.1 - - [13/Apr/2025 21:33:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:33:36 - INFO - 127.0.0.1 - - [13/Apr/2025 21:33:36] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:34:00 - INFO - 127.0.0.1 - - [13/Apr/2025 21:34:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-13 21:34:00 - INFO - 127.0.0.1 - - [13/Apr/2025 21:34:00] "GET /login HTTP/1.1" 200 -
+2025-04-13 21:34:34 - INFO - 127.0.0.1 - - [13/Apr/2025 21:34:34] "GET /register HTTP/1.1" 200 -
+2025-04-14 11:14:33 - INFO - Table users créée avec succès
+2025-04-14 11:14:33 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 11:14:33 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 11:14:33 - INFO -  * Restarting with stat
+2025-04-14 11:14:34 - INFO - Table users créée avec succès
+2025-04-14 11:14:34 - WARNING -  * Debugger is active!
+2025-04-14 11:14:34 - INFO -  * Debugger PIN: 743-911-634
+2025-04-14 11:15:10 - INFO - 127.0.0.1 - - [14/Apr/2025 11:15:10] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-14 11:15:10 - INFO - 127.0.0.1 - - [14/Apr/2025 11:15:10] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:15:11 - INFO - 127.0.0.1 - - [14/Apr/2025 11:15:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-14 11:15:13 - INFO - 127.0.0.1 - - [14/Apr/2025 11:15:13] "GET /register HTTP/1.1" 200 -
+2025-04-14 11:17:50 - INFO - 127.0.0.1 - - [14/Apr/2025 11:17:50] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-14 11:17:50 - INFO - 127.0.0.1 - - [14/Apr/2025 11:17:50] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:25:42 - ERROR - Échec authentification pour fati: The password does not match the supplied hash
+2025-04-14 11:25:42 - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:25:42 - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:42] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:25:59 - ERROR - Échec authentification pour fati: The password does not match the supplied hash
+2025-04-14 11:25:59 - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:25:59 - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:59] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:26:11 - ERROR - Échec authentification pour fati: The password does not match the supplied hash
+2025-04-14 11:26:11 - INFO - 127.0.0.1 - - [14/Apr/2025 11:26:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:26:11 - INFO - 127.0.0.1 - - [14/Apr/2025 11:26:11] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:26:25 - ERROR - Échec authentification pour fati: The password does not match the supplied hash
+2025-04-14 11:26:25 - INFO - 127.0.0.1 - - [14/Apr/2025 11:26:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:26:25 - INFO - 127.0.0.1 - - [14/Apr/2025 11:26:25] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:26:38 - ERROR - Échec authentification pour fati: The password does not match the supplied hash
+2025-04-14 11:26:38 - INFO - 127.0.0.1 - - [14/Apr/2025 11:26:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:26:38 - INFO - 127.0.0.1 - - [14/Apr/2025 11:26:38] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:26:45 - INFO - 127.0.0.1 - - [14/Apr/2025 11:26:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:26:45 - INFO - 127.0.0.1 - - [14/Apr/2025 11:26:45] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:27:20 - INFO - 127.0.0.1 - - [14/Apr/2025 11:27:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:27:20 - INFO - 127.0.0.1 - - [14/Apr/2025 11:27:20] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:27:53 - INFO - 127.0.0.1 - - [14/Apr/2025 11:27:53] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:28:04 - INFO - 127.0.0.1 - - [14/Apr/2025 11:28:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:28:04 - INFO - 127.0.0.1 - - [14/Apr/2025 11:28:04] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:31:10 - INFO - 127.0.0.1 - - [14/Apr/2025 11:31:10] "GET /login HTTP/1.1" 200 -
+2025-04-14 11:31:42 - INFO - 127.0.0.1 - - [14/Apr/2025 11:31:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 11:31:42 - INFO - 127.0.0.1 - - [14/Apr/2025 11:31:42] "GET / HTTP/1.1" 200 -
+2025-04-14 11:31:52 - INFO - 127.0.0.1 - - [14/Apr/2025 11:31:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-14 11:31:52 - INFO - 127.0.0.1 - - [14/Apr/2025 11:31:52] "GET /login HTTP/1.1" 200 -
+2025-04-14 13:58:08 - INFO - Table users créée avec succès
+2025-04-14 13:58:08 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 13:58:08 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 13:58:08 - INFO -  * Restarting with stat
+2025-04-14 13:58:09 - INFO - Table users créée avec succès
+2025-04-14 13:58:09 - WARNING -  * Debugger is active!
+2025-04-14 13:58:09 - INFO -  * Debugger PIN: 743-911-634
+2025-04-14 13:59:46 - INFO - 127.0.0.1 - - [14/Apr/2025 13:59:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-14 13:59:46 - INFO - 127.0.0.1 - - [14/Apr/2025 13:59:46] "GET /login HTTP/1.1" 200 -
+2025-04-14 13:59:47 - INFO - 127.0.0.1 - - [14/Apr/2025 13:59:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-14 14:00:12 - INFO - 127.0.0.1 - - [14/Apr/2025 14:00:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-14 14:00:12 - INFO - 127.0.0.1 - - [14/Apr/2025 14:00:12] "GET /login HTTP/1.1" 200 -
+2025-04-14 14:00:24 - INFO - 127.0.0.1 - - [14/Apr/2025 14:00:24] "GET /register HTTP/1.1" 200 -
+2025-04-15 01:20:16 - INFO - Table users créée avec succès
+2025-04-15 01:20:17 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 01:20:17 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 01:20:17 - INFO -  * Restarting with stat
+2025-04-15 01:20:17 - INFO - Table users créée avec succès
+2025-04-15 01:20:17 - WARNING -  * Debugger is active!
+2025-04-15 01:20:18 - INFO -  * Debugger PIN: 743-911-634
+2025-04-15 01:20:38 - INFO - 127.0.0.1 - - [15/Apr/2025 01:20:38] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-15 01:20:38 - INFO - 127.0.0.1 - - [15/Apr/2025 01:20:38] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:20:40 - INFO - 127.0.0.1 - - [15/Apr/2025 01:20:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-15 01:21:21 - ERROR - Échec authentification pour test: 
+2025-04-15 01:21:21 - INFO - 127.0.0.1 - - [15/Apr/2025 01:21:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:21:21 - INFO - 127.0.0.1 - - [15/Apr/2025 01:21:21] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:21:40 - ERROR - Échec authentification pour test: 
+2025-04-15 01:21:40 - INFO - 127.0.0.1 - - [15/Apr/2025 01:21:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:21:41 - INFO - 127.0.0.1 - - [15/Apr/2025 01:21:41] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:21:49 - INFO - 127.0.0.1 - - [15/Apr/2025 01:21:49] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:22:07 - ERROR - Échec authentification pour test: 
+2025-04-15 01:22:07 - INFO - 127.0.0.1 - - [15/Apr/2025 01:22:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:22:07 - INFO - 127.0.0.1 - - [15/Apr/2025 01:22:07] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:22:10 - INFO - 127.0.0.1 - - [15/Apr/2025 01:22:10] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:22:16 - INFO - 127.0.0.1 - - [15/Apr/2025 01:22:16] "GET /register HTTP/1.1" 200 -
+2025-04-15 01:23:18 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:18] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-15 01:23:18 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:18] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:23:31 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:23:31 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:31] "GET / HTTP/1.1" 200 -
+2025-04-15 01:23:39 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-15 01:23:39 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:39] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:23:51 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:23:51 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:51] "GET / HTTP/1.1" 200 -
+2025-04-15 01:23:53 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-15 01:23:53 - INFO - 127.0.0.1 - - [15/Apr/2025 01:23:53] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:24:05 - ERROR - Échec authentification pour MONCIF: The password does not match the supplied hash
+2025-04-15 01:24:05 - INFO - 127.0.0.1 - - [15/Apr/2025 01:24:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:24:05 - INFO - 127.0.0.1 - - [15/Apr/2025 01:24:05] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:24:12 - INFO - 127.0.0.1 - - [15/Apr/2025 01:24:12] "GET /register HTTP/1.1" 200 -
+2025-04-15 01:24:37 - INFO - 127.0.0.1 - - [15/Apr/2025 01:24:37] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:25:38 - INFO - 127.0.0.1 - - [15/Apr/2025 01:25:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:25:38 - INFO - 127.0.0.1 - - [15/Apr/2025 01:25:38] "GET / HTTP/1.1" 200 -
+2025-04-15 01:25:53 - INFO - 127.0.0.1 - - [15/Apr/2025 01:25:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-15 01:25:54 - INFO - 127.0.0.1 - - [15/Apr/2025 01:25:54] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:26:13 - INFO - 127.0.0.1 - - [15/Apr/2025 01:26:13] "GET /register HTTP/1.1" 200 -
+2025-04-15 01:27:45 - INFO - 127.0.0.1 - - [15/Apr/2025 01:27:45] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-15 01:27:45 - INFO - 127.0.0.1 - - [15/Apr/2025 01:27:45] "GET /register HTTP/1.1" 200 -
+2025-04-15 01:29:07 - INFO - 127.0.0.1 - - [15/Apr/2025 01:29:07] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-15 01:29:07 - INFO - 127.0.0.1 - - [15/Apr/2025 01:29:07] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:29:34 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-15 01:29:34 - INFO - 127.0.0.1 - - [15/Apr/2025 01:29:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:29:34 - INFO - 127.0.0.1 - - [15/Apr/2025 01:29:34] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:29:53 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-15 01:29:53 - INFO - 127.0.0.1 - - [15/Apr/2025 01:29:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:29:53 - INFO - 127.0.0.1 - - [15/Apr/2025 01:29:53] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:30:05 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-15 01:30:05 - INFO - 127.0.0.1 - - [15/Apr/2025 01:30:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:30:05 - INFO - 127.0.0.1 - - [15/Apr/2025 01:30:05] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:30:16 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-15 01:30:16 - INFO - 127.0.0.1 - - [15/Apr/2025 01:30:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:30:16 - INFO - 127.0.0.1 - - [15/Apr/2025 01:30:16] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:30:28 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-15 01:30:28 - INFO - 127.0.0.1 - - [15/Apr/2025 01:30:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:30:28 - INFO - 127.0.0.1 - - [15/Apr/2025 01:30:28] "GET /login HTTP/1.1" 200 -
+2025-04-15 01:30:37 - INFO - 127.0.0.1 - - [15/Apr/2025 01:30:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 01:30:37 - INFO - 127.0.0.1 - - [15/Apr/2025 01:30:37] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:39:29 - INFO - Table users créée avec succès
+2025-04-21 01:39:29 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-21 01:39:29 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 01:39:29 - INFO -  * Restarting with stat
+2025-04-21 01:39:30 - INFO - Table users créée avec succès
+2025-04-21 01:39:30 - WARNING -  * Debugger is active!
+2025-04-21 01:39:30 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:39:48 - INFO - 127.0.0.1 - - [21/Apr/2025 01:39:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-21 01:39:48 - INFO - 127.0.0.1 - - [21/Apr/2025 01:39:48] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:39:50 - INFO - 127.0.0.1 - - [21/Apr/2025 01:39:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-21 01:39:52 - INFO - 127.0.0.1 - - [21/Apr/2025 01:39:52] "GET /register HTTP/1.1" 200 -
+2025-04-21 01:42:24 - INFO - 127.0.0.1 - - [21/Apr/2025 01:42:24] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-21 01:42:24 - INFO - 127.0.0.1 - - [21/Apr/2025 01:42:24] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:43:28 - INFO - 127.0.0.1 - - [21/Apr/2025 01:43:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:43:28 - INFO - 127.0.0.1 - - [21/Apr/2025 01:43:28] "GET / HTTP/1.1" 200 -
+2025-04-21 01:43:37 - INFO - 127.0.0.1 - - [21/Apr/2025 01:43:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-21 01:43:37 - INFO - 127.0.0.1 - - [21/Apr/2025 01:43:37] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:43:52 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-21 01:43:52 - INFO - 127.0.0.1 - - [21/Apr/2025 01:43:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:43:52 - INFO - 127.0.0.1 - - [21/Apr/2025 01:43:52] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:44:05 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-21 01:44:05 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:44:05 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:05] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:44:18 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-21 01:44:18 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:44:18 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:18] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:44:30 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-21 01:44:30 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:44:30 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:30] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:44:44 - ERROR - Échec authentification pour houda: The password does not match the supplied hash
+2025-04-21 01:44:44 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:44:44 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:44] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:44:52 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:44:52 - INFO - 127.0.0.1 - - [21/Apr/2025 01:44:52] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:45:13 - INFO - 127.0.0.1 - - [21/Apr/2025 01:45:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:45:13 - INFO - 127.0.0.1 - - [21/Apr/2025 01:45:13] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:45:28 - INFO - 127.0.0.1 - - [21/Apr/2025 01:45:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:45:28 - INFO - 127.0.0.1 - - [21/Apr/2025 01:45:28] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:45:40 - INFO - 127.0.0.1 - - [21/Apr/2025 01:45:40] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:45:54 - INFO - 127.0.0.1 - - [21/Apr/2025 01:45:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 01:45:54 - INFO - 127.0.0.1 - - [21/Apr/2025 01:45:54] "GET /login HTTP/1.1" 200 -
+2025-04-21 01:52:00 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:52:01 - INFO -  * Restarting with stat
+2025-04-21 01:52:02 - INFO - Table users créée avec succès
+2025-04-21 01:52:02 - WARNING -  * Debugger is active!
+2025-04-21 01:52:02 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:53:13 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:53:13 - INFO -  * Restarting with stat
+2025-04-21 01:53:15 - INFO - Table users créée avec succès
+2025-04-21 01:53:15 - WARNING -  * Debugger is active!
+2025-04-21 01:53:15 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:53:47 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:53:48 - INFO -  * Restarting with stat
+2025-04-21 01:53:49 - INFO - Table users créée avec succès
+2025-04-21 01:53:49 - WARNING -  * Debugger is active!
+2025-04-21 01:53:49 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:54:55 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:54:55 - INFO -  * Restarting with stat
+2025-04-21 01:54:57 - INFO - Table users créée avec succès
+2025-04-21 01:54:57 - WARNING -  * Debugger is active!
+2025-04-21 01:54:57 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:55:42 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:55:42 - INFO -  * Restarting with stat
+2025-04-21 01:55:44 - INFO - Table users créée avec succès
+2025-04-21 01:55:44 - WARNING -  * Debugger is active!
+2025-04-21 01:55:44 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:56:03 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:56:03 - INFO -  * Restarting with stat
+2025-04-21 01:56:05 - INFO - Table users créée avec succès
+2025-04-21 01:56:05 - WARNING -  * Debugger is active!
+2025-04-21 01:56:05 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:56:51 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:56:51 - INFO -  * Restarting with stat
+2025-04-21 01:56:52 - INFO - Table users créée avec succès
+2025-04-21 01:56:52 - WARNING -  * Debugger is active!
+2025-04-21 01:56:52 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:56:53 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:56:54 - INFO -  * Restarting with stat
+2025-04-21 01:56:55 - INFO - Table users créée avec succès
+2025-04-21 01:56:55 - WARNING -  * Debugger is active!
+2025-04-21 01:56:55 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:57:30 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:57:30 - INFO -  * Restarting with stat
+2025-04-21 01:57:32 - INFO - Table users créée avec succès
+2025-04-21 01:57:32 - WARNING -  * Debugger is active!
+2025-04-21 01:57:32 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:57:59 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:57:59 - INFO -  * Restarting with stat
+2025-04-21 01:58:01 - INFO - Table users créée avec succès
+2025-04-21 01:58:01 - WARNING -  * Debugger is active!
+2025-04-21 01:58:01 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:58:24 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:58:24 - INFO -  * Restarting with stat
+2025-04-21 01:58:26 - INFO - Table users créée avec succès
+2025-04-21 01:58:26 - WARNING -  * Debugger is active!
+2025-04-21 01:58:26 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:58:27 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:58:27 - INFO -  * Restarting with stat
+2025-04-21 01:58:29 - INFO - Table users créée avec succès
+2025-04-21 01:58:29 - WARNING -  * Debugger is active!
+2025-04-21 01:58:29 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:59:01 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:59:02 - INFO -  * Restarting with stat
+2025-04-21 01:59:04 - INFO - Table users créée avec succès
+2025-04-21 01:59:04 - WARNING -  * Debugger is active!
+2025-04-21 01:59:04 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 01:59:28 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 01:59:28 - INFO -  * Restarting with stat
+2025-04-21 01:59:29 - INFO - Table users créée avec succès
+2025-04-21 01:59:29 - WARNING -  * Debugger is active!
+2025-04-21 01:59:29 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 02:00:27 - INFO -  * Detected change in 'C:\\Users\\hp\\Documents\\ntru_auth_app\\app.py', reloading
+2025-04-21 02:00:27 - INFO -  * Restarting with stat
+2025-04-21 02:00:30 - INFO - Table users créée avec succès
+2025-04-21 02:00:30 - WARNING -  * Debugger is active!
+2025-04-21 02:00:30 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 02:00:35 - INFO - Table users créée avec succès
+2025-04-21 02:00:35 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-21 02:00:35 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 02:00:35 - INFO -  * Restarting with stat
+2025-04-21 02:00:37 - INFO - Table users créée avec succès
+2025-04-21 02:00:37 - WARNING -  * Debugger is active!
+2025-04-21 02:00:37 - INFO -  * Debugger PIN: 720-682-309
+2025-04-21 02:01:19 - INFO - 127.0.0.1 - - [21/Apr/2025 02:01:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-21 02:01:19 - INFO - 127.0.0.1 - - [21/Apr/2025 02:01:19] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:01:23 - INFO - 127.0.0.1 - - [21/Apr/2025 02:01:23] "GET /register HTTP/1.1" 200 -
+2025-04-21 02:02:21 - INFO - 127.0.0.1 - - [21/Apr/2025 02:02:21] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-21 02:02:21 - INFO - 127.0.0.1 - - [21/Apr/2025 02:02:21] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:03:10 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:03:11 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:11] "GET / HTTP/1.1" 200 -
+2025-04-21 02:03:18 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-21 02:03:18 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:18] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:03:32 - ERROR - Authentication failed for houda: The password does not match the supplied hash
+2025-04-21 02:03:32 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:03:32 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:32] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:03:43 - ERROR - Authentication failed for houda: The password does not match the supplied hash
+2025-04-21 02:03:43 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:03:43 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:43] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:03:55 - ERROR - Authentication failed for houda: The password does not match the supplied hash
+2025-04-21 02:03:55 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:03:55 - INFO - 127.0.0.1 - - [21/Apr/2025 02:03:55] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:04:07 - ERROR - Authentication failed for houda: The password does not match the supplied hash
+2025-04-21 02:04:07 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:04:07 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:07] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:04:20 - ERROR - Authentication failed for houda: The password does not match the supplied hash
+2025-04-21 02:04:20 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:04:20 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:20] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:04:26 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:04:26 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:26] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:04:40 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:04:40 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:40] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:04:47 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:47] "GET /login HTTP/1.1" 200 -
+2025-04-21 02:04:54 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 02:04:54 - INFO - 127.0.0.1 - - [21/Apr/2025 02:04:54] "GET /login HTTP/1.1" 200 -
+2025-04-22 16:12:45 - INFO - Table users créée avec succès
+2025-04-22 16:12:45 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-22 16:12:45 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 16:12:45 - INFO -  * Restarting with stat
+2025-04-22 16:12:46 - INFO - Table users créée avec succès
+2025-04-22 16:12:46 - WARNING -  * Debugger is active!
+2025-04-22 16:12:46 - INFO -  * Debugger PIN: 720-682-309
+2025-04-22 16:13:44 - INFO - 127.0.0.1 - - [22/Apr/2025 16:13:44] "GET /register HTTP/1.1" 200 -
+2025-04-22 16:13:49 - INFO - 127.0.0.1 - - [22/Apr/2025 16:13:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 16:14:49 - INFO - 127.0.0.1 - - [22/Apr/2025 16:14:49] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-22 16:14:49 - INFO - 127.0.0.1 - - [22/Apr/2025 16:14:49] "GET /login HTTP/1.1" 200 -
+2025-04-22 16:16:32 - INFO - 127.0.0.1 - - [22/Apr/2025 16:16:32] "GET /login HTTP/1.1" 200 -
+2025-04-22 17:48:50 - INFO -  * Detected change in 'c:\\Users\\hp\\Documents\\ntru_auth_app\\NTRU_python-main\\NTRU.py', reloading
+2025-04-22 17:48:50 - INFO -  * Restarting with stat
+2025-04-22 17:48:56 - ERROR - Erreur DB: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée)")
